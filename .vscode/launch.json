@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "cwd": "/Users/chintan/STM32CubeIDE/workspace_1.15.0/Test",
+      "executable": "/Users/chintan/STM32CubeIDE/workspace_1.15.0/Test/build/test.elf",
+      "name": "Debug with ST-Link",
+      "request": "launch",
+      "type": "cortex-debug",
+      "runToEntryPoint": "main",
+      "showDevDebugOutput": "none",
+      "servertype": "stlink"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/chintan/STM32CubeIDE/workspace_1.15.0/Test",
+      "program": "/Users/chintan/STM32CubeIDE/workspace_1.15.0/Test/build/Debug/outDebug"
+    }
+  ]
+}
